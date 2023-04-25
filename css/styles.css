@@ -293,6 +293,7 @@ img {
 .icon-list .item {
   width: 40px;
   height: 40px;
+  gap: 24px;
 }
 .team-svg {
   fill: var(--team-background-color);
@@ -304,7 +305,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
 
   border-radius: 50%;
   background-color: var(--logo-web-color);
@@ -400,8 +400,6 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-
-  background-color: var(--logo-web-color);
 }
 .footer-link {
   height: 100%;
@@ -410,6 +408,7 @@ img {
   justify-content: center;
   align-items: center;
 
+  background-color: var(--logo-web-color);
   border-radius: 50%;
 }
 .footer-link:hover,
