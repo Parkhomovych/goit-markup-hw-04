@@ -254,9 +254,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.team .item:not(:last-child) {
-  margin-right: 24px;
+
+  gap: 24px;
 }
 .our {
   padding: 32px 0;
@@ -293,7 +292,6 @@ img {
 .icon-list .item {
   width: 40px;
   height: 40px;
-  gap: 24px;
 }
 .team-svg {
   fill: var(--team-background-color);
@@ -301,7 +299,6 @@ img {
 .social-link {
   height: 100%;
   width: 100%;
-  gap: 24px;
 
   display: flex;
   justify-content: center;
