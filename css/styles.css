@@ -301,6 +301,7 @@ img {
 .social-link {
   height: 100%;
   width: 100%;
+  gap: 24px;
 
   display: flex;
   justify-content: center;
